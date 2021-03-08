@@ -4,44 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Bootstrap Project</title>
 </head>
 <body>
-    <header>
-        <section>
-            <span>Wed, January 20, 2021</span>
-            <a href=""><img src="assets/images/logo-newsweek.svg" alt=""></a>
-            <button>LOGIN</button>
-            <button>SUBSCRIBE</button>
-            <button><img class="hamburger-button" src="assets/icons/hamburger.svg" alt=""></button>
+    <header class="container-fluid flex-column header-style">
+        <section class="d-flex justify-content-between align-items-center header-banner">
+            <date class="header-date">Wed, January 20, 2021</date>
+            <a href=""><img class="header-logo" src="assets/images/logo-newsweek.svg" alt=""></a>
+            <div>
+                <button type="button" class="btn btn-link login-button"><img class="login-button-icon" src="assets/icons/login.svg" alt=""></button>
+                <button type="button" class="btn btn-light subscribe-button">SUBSCRIBE ></button>
+                <button type="button" class="btn btn-link hamburger-button"><img class="hamburger-button-icon" src="assets/icons/hamburger.svg" alt=""></button>
+            </div>
         </section>
-        <nav>
-            <ul>
-                <li>U.S.</li>
-                <li>World</li>
-                <li>Business</li>
-                <li>Tech &amp; Science</li>
-                <li>Culture</li>
-                <li>Newsgeek</li>
-                <li>Sports</li>
-                <li>Health</li>
-                <li>The Debate</li>
-                <li>Experts</li>
-                <li>Vantage</li>
-                <li>Search</li>
-            </ul>
-            <ul>
-                <li>TRENDING</li>
-                <li>JOE BIDEN</li>
-                <li>DOLAND TRUMP</li>
-                <li>INAGURATION</li>
-                <li>CORONAVIRUS</li>
-                <li>STIMULUS PACKAGE</li>
-                <li>VACCINE</li>
-                <li>CAPITOL RIOTS</li>
-            </ul>
+        <nav class="nav-menu">
+            <div class="d-flex header-menu">
+                <a class="menu-link" href="">U.S.</a>
+                <a class="menu-link" href="">World</a>
+                <a class="menu-link" href="">Business</a>
+                <a class="menu-link" href="">Tech &amp; Science</a>
+                <a class="menu-link" href="">Culture</a>
+                <a class="menu-link" href="">Newsgeek</a>
+                <a class="menu-link" href="">Sports</a>
+                <a class="menu-link" href="">Health</a>
+                <a class="menu-link" href="">The Debate</a>
+                <a class="menu-link" href="">Experts</a>
+                <a class="menu-link" href="">Vantage</a>
+                <div>
+                    <span>Search</span>
+                    <img src="assets/icons/search.svg" alt="">
+                </div>
+            </div>
+            <div class="header-submenu">
+                <a class="menu-link" href="">TRENDING</a>
+                <a class="menu-link" href="">JOE BIDEN</a>
+                <a class="menu-link" href="">DONALD TRUMP</a>
+                <a class="menu-link" href="">INAGURATION</a>
+                <a class="menu-link" href="">CORONAVIRUS</a>
+                <a class="menu-link" href="">STIMULUS PACKAGE</a>
+                <a class="menu-link" href="">VACCINE</a>
+                <a class="menu-link" href="">CAPITOL RIOTS</a>
+            </div>
         </nav>
     </header>
 
