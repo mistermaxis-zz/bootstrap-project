@@ -134,11 +134,20 @@
     margin: 1rem 0;
   }
 
+  .search-input {
+    width: 4rem;
+    border: none;
+  }
+
   .menu-link {
     font-family: roboto, sans-serif;
     font-weight: bold;
     color: #000;
     text-align: center;
+  }
+
+  .header-menu .menu-link:last-of-type {
+    border: none;
   }
 
   .header-menu .menu-link {
