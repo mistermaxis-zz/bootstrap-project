@@ -146,10 +146,6 @@
     text-align: center;
   }
 
-  .header-menu .menu-link:last-of-type {
-    border: none;
-  }
-
   .header-menu .menu-link {
     border-right: 2px solid #eee;
     flex-grow: 1;
@@ -171,5 +167,9 @@
   .menu-link:hover {
     text-decoration: none;
     color: rgb(255, 30, 0);
+  }
+
+  .header-menu .menu-link:last-of-type {
+    border: none;
   }
 }
