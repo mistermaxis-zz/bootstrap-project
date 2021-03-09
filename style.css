@@ -6,10 +6,6 @@
   padding: 0.5rem 0;
 }
 
-.header-date {
-  display: none;
-}
-
 .header-logo {
   height: 1.2rem;
   margin: 0.25rem;
@@ -26,10 +22,6 @@
 .hamburger-button-icon {
   height: 1rem;
   vertical-align: unset;
-}
-
-.nav-menu {
-  display: none;
 }
 
 .subscribe-button {
@@ -106,7 +98,6 @@
 /*              DESKTOP             */
 @media screen and (min-width: 992px) {
   .header-date {
-    display: unset;
     margin-left: 1rem;
     font-family: roboto, sans-serif;
     font-size: 0.8rem;
@@ -115,6 +106,7 @@
 
   .header-logo {
     height: 4rem;
+    outline: none;
   }
 
   .hamburger-button {
@@ -125,21 +117,13 @@
     margin: 0 1rem;
   }
 
-  .nav-menu {
-    display: block;
-  }
-
-  .header-menu {
-    padding-right: 2rem;
-    margin: 1rem 0;
-  }
-
   .search-input {
     width: 4rem;
     border: none;
   }
 
-  .menu-link {
+  .menu-link,
+  .sub-menu-link {
     font-family: roboto, sans-serif;
     font-weight: bold;
     color: #000;
@@ -148,23 +132,15 @@
 
   .header-menu .menu-link {
     border-right: 2px solid #eee;
-    flex-grow: 1;
-    flex-basis: auto;
-    font-size: 1.2rem;
   }
 
-  .header-submenu .menu-link {
+  .sub-menu-link {
     color: #777;
     margin: 0 0.5rem;
   }
 
-  .header-submenu {
-    border-bottom: 0.15rem solid #eee;
-    border-top: 0.15rem solid #eee;
-    padding: 0.5rem 0;
-  }
-
-  .menu-link:hover {
+  .menu-link:hover,
+  .sub-menu-link:hover {
     text-decoration: none;
     color: rgb(255, 30, 0);
   }
