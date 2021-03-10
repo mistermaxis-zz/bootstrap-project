@@ -1,4 +1,4 @@
-/*              MOBILE LAOUT AND STYLING                */
+/*              MOBILE LAYOUT AND STYLING                */
 
 /*                       HEADER                         */
 .header-banner {
@@ -26,29 +26,6 @@
 
 .subscribe-button {
   background-color: rgb(255, 217, 0);
-  border-radius: 24px;
-  font-weight: bolder;
-  font-size: 12px;
-  padding: 0.1rem 0.5rem 0.2rem 0.6rem;
-}
-
-/*              MEDIA QUERIES               */
-
-/*              TABLET              */
-@media screen and (min-width: 768px) {
-  .login-button-icon {
-    height: 2rem;
-  }
-
-  .subscribe-button {
-    font-family: roboto, sans-serif;
-    font-size: 1rem;
-    padding: 0.1rem 0.8rem 0 0.8rem;
-  }
-
-  .hamburger-button-icon {
-    height: 1.5rem;
-  }
 }
 
 /*        FOOTER        */
@@ -62,9 +39,7 @@
   color: #666;
 }
 
-.row2 i {
-  border-right-width: 1px;
-  border-right-style: solid;
+.row2 a {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -93,6 +68,33 @@
 
 .row2 > i:nth-child(2) {
   padding-right: 10px;
+}
+
+/*              MEDIA QUERIES               */
+
+/*              TABLET              */
+@media screen and (min-width: 768px) {
+  .login-button-icon {
+    height: 2rem;
+  }
+
+  .subscribe-button {
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    padding: 0.1rem 0.8rem 0 0.8rem;
+  }
+
+  .hamburger-button-icon {
+    height: 1.5rem;
+  }
+  
+  .row2 a {
+    border-right: 1px solid;
+  }
+
+  .row2 a:last-of-type {
+    border-right: none;
+  }
 }
 
 /*              DESKTOP             */
