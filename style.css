@@ -40,6 +40,12 @@
   padding: 0.1rem 0.5rem 0.2rem 0.6rem;
 }
 
+/*        IN Magazine     */
+
+.card-link:hover {
+  text-decoration: underline red;
+}
+
 /*              MEDIA QUERIES               */
 
 /*              TABLET              */
