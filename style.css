@@ -42,7 +42,7 @@
 
 /*        IN Magazine     */
 
-.mag-card-link:hover {
+.card-link:hover {
   text-decoration: underline red;
 }
 
