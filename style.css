@@ -164,3 +164,9 @@
     color: rgb(255, 30, 0);
   }
 }
+
+/*        General rule       */
+
+#sub > div:nth-child(2) {
+  background-color: #f4f5f6;
+}
