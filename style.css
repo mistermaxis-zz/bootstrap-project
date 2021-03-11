@@ -1,0 +1,166 @@
+/*              MOBILE LAOUT AND STYLING                */
+
+/*                       HEADER                         */
+.header-banner {
+  background-color: rgb(255, 30, 0);
+  padding: 0.5rem 0;
+}
+
+.header-date {
+  display: none;
+}
+
+.header-logo {
+  height: 1.2rem;
+  margin: 0.25rem;
+}
+
+.login-button {
+  padding: 0.1rem 0.2rem;
+}
+
+.login-button-icon {
+  height: 1.5rem;
+}
+
+.hamburger-button-icon {
+  height: 1rem;
+  vertical-align: unset;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.subscribe-button {
+  background-color: rgb(255, 217, 0);
+  border-radius: 24px;
+  font-weight: bolder;
+  font-size: 12px;
+  padding: 0.1rem 0.5rem 0.2rem 0.6rem;
+}
+
+/*              MEDIA QUERIES               */
+
+/*              TABLET              */
+@media screen and (min-width: 768px) {
+  .login-button-icon {
+    height: 2rem;
+  }
+
+  .subscribe-button {
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    padding: 0.1rem 0.8rem 0 0.8rem;
+  }
+
+  .hamburger-button-icon {
+    height: 1.5rem;
+  }
+}
+
+/*        FOOTER        */
+#Layer_1 {
+  width: 300px;
+  fill: #f72210;
+}
+
+.icons i {
+  font-size: 25px;
+  color: #666;
+}
+
+.row2 i {
+  border-right-width: 1px;
+  border-right-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row1 span {
+  margin-top: auto;
+}
+
+.d-flex.icons i {
+  padding: 5px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.row1 {
+  margin-bottom: 12px;
+}
+
+.row2 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 5px;
+}
+
+.row2 > i:nth-child(2) {
+  padding-right: 10px;
+}
+
+/*              DESKTOP             */
+@media screen and (min-width: 992px) {
+  .header-date {
+    display: unset;
+    margin-left: 1rem;
+    font-family: roboto, sans-serif;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+
+  .header-logo {
+    height: 4rem;
+  }
+
+  .hamburger-button {
+    display: none;
+  }
+
+  .subscribe-button {
+    margin: 0 1rem;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  .header-menu {
+    padding-right: 2rem;
+    margin: 1rem 0;
+  }
+
+  .menu-link {
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+  }
+
+  .header-menu .menu-link {
+    border-right: 2px solid #eee;
+    flex-grow: 1;
+    flex-basis: auto;
+    font-size: 1.2rem;
+  }
+
+  .header-submenu .menu-link {
+    color: #777;
+    margin: 0 0.5rem;
+  }
+
+  .header-submenu {
+    border-bottom: 0.15rem solid #eee;
+    border-top: 0.15rem solid #eee;
+    padding: 0.5rem 0;
+  }
+
+  .menu-link:hover {
+    text-decoration: none;
+    color: rgb(255, 30, 0);
+  }
+}
