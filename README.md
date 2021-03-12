@@ -4,7 +4,7 @@
 
 > Project for week three in the Microverse Program: "Bootstrap."
 
-[assets/images/website-clone-screenshot.png]
+![](assets/images/website-clone-screenshot.png)
 
 In this project we explore the use of the bootstrap framework to layout and style a website built to the likeness of the [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) website.
 
@@ -44,15 +44,14 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Maximiliano Diaz**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@mistermaxis](https://github.com/mistermaxis)
+- LinkedIn: [Maximiliano Diaz](https://www.linkedin.com/in/mistermaxis/)
 
 👤 **Anas Mahmoud**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@luck-i](https://github.com/luck-i)
+- Twitter: [@Anas20609785](https://twitter.com/Anas20609785)
+- LinkedIn: [Anas Mahmoud](https://www.linkedin.com/in/anas-mahmoud-120669200/)
 
 ## 🤝 Contributing
 
