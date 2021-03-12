@@ -2,17 +2,16 @@
 
 # Project Name
 
-> Template repository with linter setup for HTML/CSS.
+> Project for week three in the Microverse Program: "Bootstrap."
 
 # Screenshot goes here
 
-Additional description about the project and its features.
+In this project we explore the use of the bootstrap framework to layout and style a website built to the likeness of the [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) website.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS
+- Bootstrap
 
 ## Live Demo
 
@@ -20,10 +19,6 @@ Additional description about the project and its features.
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -48,13 +43,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Maximiliano Diaz**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Anas Mahmoud**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -64,7 +59,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/issues).
 
 ## Show your support
 
