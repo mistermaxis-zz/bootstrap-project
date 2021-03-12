@@ -4,7 +4,7 @@
 
 > Project for week three in the Microverse Program: "Bootstrap."
 
-# Screenshot goes here
+(assets/images/website-clone-screenshot.png)
 
 In this project we explore the use of the bootstrap framework to layout and style a website built to the likeness of the [Newsweek](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) website.
 
@@ -15,8 +15,7 @@ In this project we explore the use of the bootstrap framework to layout and styl
 
 ## Live Demo
 
-[Live Demo Link](live demo url goes here)
-
+[Live Demo Link](https://mistermaxis.github.io/bootstrap-project/)
 
 ## Getting Started
 
