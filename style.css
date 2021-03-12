@@ -55,6 +55,10 @@
   height: 10rem;
 }
 
+.newsletter-article {
+  height: 90%;
+}
+
 /*              MEDIA QUERIES               */
 
 /*              TABLET              */
