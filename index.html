@@ -1,12 +1,1008 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <!-- comming 2 lines of code are important the first is font awosome libraray and the stylesheet.css -->
+    <link crossorigin="anonymous" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Newsweek</title>
 </head>
-<body>
-  
+<body class="container-fluid container-xxl">
+    <header class="flex-column header-style">
+        <div class="d-flex justify-content-between align-items-center header-banner">
+            <span class="header-date">Wed, January 20, 2021</span>
+            <a href=""><img class="header-logo" src="assets/images/logo-newsweek.svg" alt=""></a>
+            <div>
+                <button type="button" class="btn btn-link login-button"><img class="login-button-icon" src="assets/icons/login.svg" alt=""></button>
+                <button type="button" class="btn btn-light subscribe-button">SUBSCRIBE ></button>
+                <button type="button" class="btn btn-link hamburger-button"><img class="hamburger-button-icon" src="assets/icons/hamburger.svg" alt=""></button>
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <div class="d-flex header-menu">
+                <a class="menu-link" href="">U.S.</a>
+                <a class="menu-link" href="">World</a>
+                <a class="menu-link" href="">Business</a>
+                <a class="menu-link" href="">Tech &amp; Science</a>
+                <a class="menu-link" href="">Culture</a>
+                <a class="menu-link" href="">Newsgeek</a>
+                <a class="menu-link" href="">Sports</a>
+                <a class="menu-link" href="">Health</a>
+                <a class="menu-link" href="">The Debate</a>
+                <a class="menu-link" href="">Experts</a>
+                <a class="menu-link" href="">Vantage</a>
+                <div>
+                    <span>Search</span>
+                    <img src="assets/icons/search.svg" alt="">
+                </div>
+            </div>
+            <div class="header-submenu">
+                <a class="menu-link" href="">TRENDING</a>
+                <a class="menu-link" href="">JOE BIDEN</a>
+                <a class="menu-link" href="">DONALD TRUMP</a>
+                <a class="menu-link" href="">INAGURATION</a>
+                <a class="menu-link" href="">CORONAVIRUS</a>
+                <a class="menu-link" href="">STIMULUS PACKAGE</a>
+                <a class="menu-link" href="">VACCINE</a>
+                <a class="menu-link" href="">CAPITOL RIOTS</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="row">
+            <div class="container-fluid px-3 col-12 col-md-5 col-lg-3">
+                <div class="featured-stories d-flex flex-column w-100 ">
+                    <h4 class="text-muted">FEATURED STORIES</h4>
+                    <div class="mb-4">
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                            <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
+                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                    </div>
+                    
+                    <div class="mb-4">
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                            <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
+                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                            <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
+                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                            <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
+                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="position-relative">
+                            <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                            <span class="border-bottom border-1 tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <div class="p-2"><h3><a class="text-decoration-none text-dark" href="#">The 73 People Pardoned by Donald Trump on His Last Day As President</a></h3>
+                        <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper Lil Wayne.</p></div>    
+                    </div>
+                </div>
+
+                <div class="sponsered-insights d-flex flex-column w-100">
+                    
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                        </div>
+                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
+                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                        </div>
+                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
+                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                        </div>
+                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</a></h3>
+                        <p>75% of Roofstock users are first-time real estate investors, and more than half are under 35.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column container-fluid px-3 mb-4 col-12 col-md-7 col-lg-6 ">
+                <div class="top-story">
+                    <h4 class="text-muted">TOP STORY</h4>
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/micro-logo-w.png" alt="Micoverse-logo"></a>
+                        <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0">Politics</span>
+                        </div>
+                        <h3><a href="#" class="text-decoration-none text-dark">Joe Biden's First Executive Actions Undo Many of Donald Trump's</a></h3>
+                        <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first taken as he begins his tenure.</p>     
+                        </div>   
+                </div>
+
+                <div class="my-turn">
+                    <h4 class="text-muted">MY TURN</h4>
+                    <div class="d-flex flex-column flex-md-row gap-3">
+                        <div class="mb-4">                    
+                            <a href="#"><img class="w-100" src="res/my-turn.webp" alt="two friends"></a>                    
+                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to Avoid Inheritance Tax'</a></strong>
+                        </div>
+                        <div class="mb-4">                    
+                            <a href="#"><img class="w-100" src="res/my-turn.webp" alt="two friends"></a>                    
+                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to Avoid Inheritance Tax'</a></strong>
+                        </div>
+                        <div class="mb-4">                    
+                            <a href="#"><img class="w-100" src="res/my-turn.webp" alt="two friends"></a>                    
+                            <strong><a href="#" class="text-decoration-none text-muted">'I Married My Best Friend to Avoid Inheritance Tax'</a></strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture_travel">
+                    <h4 class="text-muted">CULTURE &amp; TRAVEL</h4>
+                    <div class="d-flex flex-column flex-md-row gap-3">
+                        <div class="mb-4">                    
+                            <div class="position-relative">
+                                <a href="#"><img class="w-100" src="res/my-turn.webp" alt="two friends"></a>
+                                <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
+                            </div>                   
+                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around the World</a></strong>
+                        </div>
+                        <div class="mb-4">                    
+                            <div class="position-relative">
+                                <a href="#"><img class="w-100" src="res/my-turn.webp" alt="two friends"></a>
+                                <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
+                            </div>                   
+                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around the World</a></strong>
+                        </div>
+                        <div class="mb-4">                    
+                            <div class="position-relative">
+                                <a href="#"><img class="w-100" src="res/my-turn.webp" alt="two friends"></a>
+                                <span class="tag list-group-item text-danger bg-light fw-bold position-absolute start-0 bottom-0 p-1">Travel</span>
+                            </div>                   
+                            <strong><a href="#" class="text-decoration-none text-muted">The Secrets to Happiness Around the World</a></strong>
+                        </div>                 
+                    </div>
+                </div>
+
+                <div class="more-stories">
+                    <h4 class="text-muted py-2">MORE STORIES</h4>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                    <div class="border-top py-3 mt-3">
+                        <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                        <div class="pt-1">                 
+                        <strong><a href="#" class="text-decoration-none text-dark small">Biden's Biggest Challenge? 67,000 Migrants Stranded at U.S.-Mexico Border</a></strong>
+                        <p class="text-muted small">The incoming president has not said what he plans to do with the tens of thousands of asylum-seekers living in limbo in crowded shelters and makeshift camps along the border.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-news">
+                <h4 class="text-muted py-2">LATEST NEWS</h4>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                <div class="border-top py-3 mt-3">
+                    <a href="#"><img class="float-start my-auto pe-2" src="res/stories-pic.webp" alt="inmigrant" width="100" height="100"></a>
+                    <div class="pt-1">                 
+                    <strong><a href="#" class="text-decoration-none text-dark small">'Cobra Kai' Season 4 Expected to Start Shooting Today</a></strong>
+                    <p class="text-muted small">"Cobra Kai" Season 4 has been confirmed by Netflix, and production has been reported to be...</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="container-fluid px-3 col-12 col-md-12 col-lg-3">
+                <div class="debate">
+                <h4 class="text-muted">THE DEBATE</h4>
+                <div class="position-relative border-bottom border-top border-4">
+                    <div class="d-flex flex-column border-bottom border-1 pt-2 pb-3 mb-1">
+                        <div class="mb-0">
+                            <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                            <div class="pt-1">                 
+                            <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="position-absolute bg-dark text-light rounded-circle p-2 line-height-1 fs-6 fw-bold" style="top: 37%; left: 50%;">VS</span>
+                    <div class="d-flex flex-column border-top border-1">
+                        <div class="mb-1 mt-4">
+                            <a href="#"><img class="float-end rounded-circle my-auto ps-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                            <div class="pt-1 text-start">                 
+                            <a href="#" class="text-decoration-none text-dark"><strong>After Parler Ban, Rein in Big Tech Now or Cease Being Free Citizens</strong></a>
+                            <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark"><strong>RACHEL BOVARD</strong></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+
+                <div class="opinion">
+                <h4 class="text-muted mt-3">OPINION</h4>
+                <div class="d-flex flex-column">
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                </div>
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                <div class="border-bottom py-3">
+                    <a href="#"><img class="float-start rounded-circle my-auto pe-2" src="res/person.png" alt="anonymous person" width="60" height="60"></a>   
+                    <div class="pt-1">                 
+                    <a href="#" class="text-decoration-none text-dark"><strong>Media Have Every Right to Cancel Trump</strong></a>
+                    <p class="text-muted">BY <a href="#" class="text-decoration-none text-dark small"><strong>FROMA HARROP</strong></a></p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="fre-sign-up sponsered-insights">
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/sponsored.jpg" alt="hungary"></a>
+                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                        </div>
+                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
+                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                    </div>
+                    <div class="sign-up container-fluid p-1">
+                        <div class="w-100 my-3">
+                            <div class="bg-light p-2 mx-auto">
+                                <div class="caption d-flex gap-2 my-3">
+                                    <img src="res/free-sign-up.png" alt="" class="signicon d-block float-left" width="30" height="30">
+                                    <h6 class="float-left">START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+                                </div>
+                                <form class="form p-0" action="#">
+                                    <input class="w-100 p-2 border-1 btn-outline-secondary bg-white" type="email" placeholder="Email address" size="10">
+                                    <button type="button" class="btn btn-block w-100 mt-3 btn-danger">Free sign up <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/sponsored.jpg" alt="hungary"></a>
+                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                        </div>
+                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
+                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                    </div>
+                    <div class="mb-4">
+                        <div class="position-relative">
+                        <a href="#"><img class="w-100" src="res/sponsored.jpg" alt="hungary"></a>
+                        <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                        </div>
+                        <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
+                        <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                    </div>
+                    <div class="mb-4">
+                    <div class="position-relative">
+                    <a href="#"><img class="w-100" src="res/sponsored.jpg" alt="hungary"></a>
+                    <span class="tag list-group-item text-primary bg-light fw-bold position-absolute start-0 bottom-0">SPONSORED INSIGHT</span>
+                    </div>
+                    <div class="border p-2"><h3><a class="text-decoration-none text-dark" href="#">Hungary: From Manufacturing Hub to Innovation and R and D; Center</a></h3>
+                    <p class="small">With its pro-business agenda and open-border policy for investors, the Central European nation is hoping to bounce back from the COVID-19 crisis, while making greater strides toward innovation, research and development.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="Newspaper">
+            <div class="caption d-flex text-left-3 justify-content-start text-left pt-3 mx-3 border-top flex-column" id="US">
+                <strong class="fs-4 text-danger">U.S.</strong> 
+                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="World" class="caption d-flex text-left gap-2 mt-3 justify-content-start flex-column pt-3 mx-3 border-top">
+                <strong class="fs-4 text-danger" >World</strong>
+                                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Business" class="caption d-flex text-left gap-2 mt-3 justify-content-start flex-column pt-3 mx-3 border-top" >
+                <strong class="fs-4 text-danger" >Business</strong>
+                                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Tech-Science" class="caption d-flex text-left gap-2 mt-3 justify-content-start flex-column pt-3 mx-3 border-top" >
+                <strong class="fs-4 text-danger" >Tech-Science</strong>
+                                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Culture" class="caption d-flex text-left gap-2 mt-3 justify-content-start flex-column pt-3 mx-3 border-top" >
+                <strong class="fs-4 text-danger" >Culture</strong>
+                                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Sports" class="caption d-flex text-left gap-2 mt-3 justify-content-start flex-column pt-3 mx-3 border-top" >
+                <strong class="fs-4 text-danger" >Sports</strong>
+                                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Expert-forum" class="caption d-flex text-left gap-2 mt-3 justify-content-start flex-column pt-3 mx-3 border-top" >
+                <strong class="fs-4 text-danger" >Expert-forum</strong>
+                                <div class="d-flex flex-column flex-md-row">
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>
+                    <div class="container-fluid px-3 py-3 col-md-4">                    
+                        <a href="#"><img class="w-100" src="res/queue-covid19-antibody-tests-california.jpg" alt="crazy dude"></a>                    
+                        <h4><a href="#" class="text-decoration-none text-dark">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h4>
+                    </div>            
+                    <div class="container-fluid px-3 pb-3 col-md-4">                
+                        <div class="d-flex py-3 h-auto">
+                            <a href="#"><img class="w-00 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                        <div class="d-flex py-3 h-auto border-top">
+                            <a href="#"><img class="w-200 pe-2" src="res/k-9-officer-arlo.jpg" alt="homeless"></a>                
+                            <h6><a href="#" class="text-decoration-none fw-bold text-dark small">Indiana Homeless Man Chooses to Be Arrested to Avoid Cold Weather</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <!--                IN THE MAGAZINE             -->
+
+        <div>
+            <div class="d-flex align-center justify-content-center py-3 border-bottom">
+                <img class="bg-danger" width="30" height="30" src="assets/icons/logo-n.svg" alt="Newsweek Logo">
+                <span class="text-center ms-2">
+                    IN THE MAGAZINE
+                </span>
+            </div>
+            <div class="container-fluid container-xl">
+                <div class="row">
+                    <div class="col-12 col-md-3 mb-3 d-flex flex-column">
+                        <a href="#">
+                            <div class="card border-0">
+                                <span class="position-absolute bottom-0 px-3 py-2 text-danger bg-light fw-bolder">
+                                    JANUARY 22 ISSUE
+                                </span>
+                                <img src="assets/images/cover-magazine.jpg" alt="Magazine Cover">
+                            </div>
+                        </a>
+                        <a class="btn btn-light text-center fw-bolder text-wrap" href="#">SEE ALL FEATUres ></a>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3 align-items-end">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card border-0">
+                            <img src="assets/images/in-magazine-art-1.jpg" alt="Article One">
+                            <div class="card-text my-1">
+                            <span class="btn rounded-0 bg-danger text-light fw-bolder">COVER</span>
+                            <span class="btn rounded-0 btn-light text-danger fw-bolder">NEWS</span>
+                        </div>
+                        <a href="#" class="card-link link-dark fw-bolder fs-6">
+                            FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--                EDITOR´S PICK               -->
+
+        <div>
+            <div class="d-flex align-center justify-content-center py-3 border-bottom">
+                <img class="bg-danger" width="30" height="30" src="assets/icons/logo-n.svg" alt="Newsweek Logo">
+                <span class="text-center ms-2">
+                    EDITOR'S PICK
+                </span>
+            </div>
+            <div class="container-fluid container-xl">
+                <div class="row">
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 mb-4">
+                        <div class="card border-0">
+                            <a class="card border-0" href="#">
+                                <span class="text-danger fw-bolder px-3 py-1 bg-light position-absolute start-0 bottom-0">WORLD</span>
+                                <img src="assets/images/joey.jpg" alt="Joe from Family Guy">
+                            </a>
+                            <a href="#" class="card-link my-1 fs-3 lh-sm link-dark fw-bolder">
+                                FBI, DHS, White House Advisers Foresaw Possible Riots, Looked the Other Way
+                            </a>
+                            <span>
+                                The president—who will exit the White House on Wednesday following the inauguration of Joe Biden—was effectively exiled from mainstream social media platforms this month after the violence.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--  This is what i worked on-->
+        <div class="Subscribe d-flex flex-column  flex-lg-row">
+
+            <div id="sub" class="col-lg-7 flex-md flex-sm-column">
+                <strong class="text-danger pb-4">SUBSCRIBE</strong>
+                <div class="newsletter-article d-flex flex-column flex-md-row flex-lg-row align-items-center">
+                    <div class="position-relative p-3">
+                        <img class="" src="res/cover-magazine.webp" alt="image" width="170" height="230">
+                        <img class="position-absolute" src="res/cover-magazine.webp" alt="image" style="top: 30px; left: 80px;" width="170" height="230">
+                        <div style="width: 250px;"></div>
+                    </div>
+
+                    <div id="container12" class="d-flex flex-column align-items-center">
+                        <h3 class="px-4 pt-2 fs-5 text-center">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h3>
+                        <p class="p-2 text-center">All Acess + Weekly Delivery. Choose A Membership That's Perfect!</p>
+                        <button type="button" class="btn bg-danger text-white fw-bold mb-3">SUBSCRIBE <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="newsletter" class="col-lg-5">
+                <strong class="text-danger">NEWSLETTER</strong>
+                <div class="newsletter-article d-flex flex-column flex-md-row mx-0 border">
+                    <div class="free-signup-image"></div>
+                    <div class="px-5 py-3 d-flex flex-column align-items-center">
+                        <h3 class="align-self-start">The Starting 5</h3>
+                        <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+                        <div class="input-group d-flex flex-row flex-lg-column"> 
+                            <input type="email" class="form-control w-50" placeholder="Email address"> 
+                            <button type="button" class="btn btn-outline-secondary w-50 bg-danger text-light">FREE SIGN UP <i class="fa fa-chevron-right" aria-hidden="true"></i> </button>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="row1 d-flex flex-column flex-lg-row">
+        <img width="200" src="assets/images/logo-newsweek-red.svg" alt="Footer Logo">
+        <span>© 2021 NEWSWEEK DIGITAL LLC</span>
+      
+        <div class="d-flex icons ml-lg-auto mt-auto ml-sm-0">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+
+      </div>
+    
+      <div class="row2 d-flex flex-wrap align-content-start ">   
+        <a href="#" class="font-weight-bold border border-0">Editions:</a>
+        <a href="#">U.S. Edition</a>
+        <a href="#">日本</a>
+        <a href="#">Pakistan</a>
+        <a href="#">Polska</a>
+        <a href="#">România</a>
+      
+        <a href="#">About Us</a>
+        <a href="#">Corrections</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Editorial Guidelines</a>
+        <a href="#">Advertise</a>
+        <a href="#">Copyright</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Terms of Sale</a>
+        <a href="#">Archive</a>
+        <a href="#">Announcements</a>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
 </body>
 </html>
