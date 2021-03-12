@@ -25,10 +25,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Install webhint: ´npm install --save-dev hint@6.0.x´
-- Run webhint: ´npx hint .´
-- Install styleint: ´npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator´
-- Run styleint (with pure css): ´npx stylelint "**/*.{css,scss}"´
+- Install webhint: `npm install --save-dev hint@6.0.x`
+- Run webhint: `npx hint .`
+- Install styleint: `npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-standard@20.0.x stylelint-csstree-validator`
+- Run styleint (with pure css): `npx stylelint "**/*.{css,scss}"`
 
 ### Install
 
